@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS to-do API</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Orbitron&family=Poppins:wght@500&family=Roboto:wght@500;700&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script defer src="assets/script/main.js"></script>
+    <section>
+        <div class="container">
+            <form action="#" method="#">
+                <input type="text" id="inputActivity" placeholder="Input Activity">
+                <input type="date" id="inputDate">
+                <input type="time" id="inputTime">
+                
+            </form>
+            <button id="addTaskBtn">Add Activity</button>
+            <div class="table">
+                <table class="label">
+                    <tr id="line">
+                        <td>Activity</td>
+                        <td> Date</td>
+                        <td>Time</td>
+                        <td>Progress</td>
+                    </tr>
+                </table>
+                <table class="display-table" id="displayTable"></table>
+            </div>
+            <button class="all-clear" id="allClearBtn">Clear Activities</button>
+        </div>
+    </section>
+</body>
+</html>
