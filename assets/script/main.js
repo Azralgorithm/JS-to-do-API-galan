@@ -59,7 +59,7 @@ let addTask = () => {
 
 let clear = () => {
     localStorage.clear();
-    displayTable.innerHTML = `<tr id="mssg"><td>Add a Task.</td></tr>`;
+    displayTable.innerHTML = "";
 }
 
 // event
